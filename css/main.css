@@ -1,0 +1,56 @@
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 40px 0;
+  border-bottom: 1px solid #A1A1A1;
+}
+.header-nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 49px;
+}
+
+.hero {
+  background-image: url("./images/team.png");
+}/*# sourceMappingURL=main.css.map */
