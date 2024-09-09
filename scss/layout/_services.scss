@@ -1,12 +1,11 @@
-.allprojects {
-    background-color: #F6F6F8;
-    padding: 100px 0 130px 0;
+.services {
+    padding: 110px 0;
     &-title {
         font-size: 36px;
         font-weight: 700;
         line-height: 52.66px;
         text-align: center;
-        margin-bottom: 28px;
+        margin-bottom: 32px;
     }
     &-text {
         font-size: 16px;
@@ -14,13 +13,28 @@
         line-height: 25.36px;
         text-align: center;
         color: #999999;
-        margin-bottom: 92px;
+        max-width: 730px;
+        margin: 0 auto;
+        margin-bottom: 70px;
     }
     &-list {
         display: flex;
         justify-content: center;
-        gap: 30px;
-        margin-bottom: 50px;
+        gap:  27px;
+        margin-bottom:  55px;
+    }
+    &-list-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+        text-align: left;
+    }
+    &-list-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.19px;
+        text-align: left;
+        color: #999999;
     }
     &-link {
         background-color: #4985FF;;
@@ -35,4 +49,8 @@
         display: block;
         margin: 0 auto;
     }
+    &-item-wrap {
+        display: flex;
+        gap: 17px;
+}
 }

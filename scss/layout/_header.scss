@@ -1,8 +1,21 @@
 .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
     padding: 40px 0;
     border-bottom: 1px solid #A1A1A1;
+    &-nav{
+        display: flex;
+        justify-content: flex-end;
+    }
     &-nav-list {
         display: flex;
         gap: 49px;
+        margin-left: auto;
+    }
+    &-nav-list-link {
+        color: #FFFFFF;
     }
 }
