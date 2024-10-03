@@ -29,12 +29,21 @@
         &-list {
             display: flex;
         }
+        &-list-title {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        &-list-title::before {
+            content: "01. ";
+            color: #4985FF;
+        }
         &-list-text {
         font-size: 16px;
         font-weight: 400;
         line-height: 25.36px;
         text-align: left;
         color: #999999;
+        margin-bottom: 47px;
         }
         &-list-link {
         font-size: 16px;
