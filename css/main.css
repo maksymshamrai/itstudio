@@ -173,8 +173,8 @@ body {
 }
 
 .allservices {
-  background-color: #5F12D0;
   padding: 100px 0;
+  background-color: #5F12D0;
 }
 .allservices-text-container {
   display: -webkit-box;
@@ -504,6 +504,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 55px;
 }
 .video-btn {
   background: transparent;
